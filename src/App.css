@@ -28,7 +28,7 @@
 
 .main:after {
   content: "";
-  background-image: url("src/assets/jj-ying-WmnsGyaFnCQ-unsplash.jpg");
+  background-image: url("./jj-ying-WmnsGyaFnCQ-unsplash.jpg");
   /* z-index: 1; */
   background-size: cover;
   position: absolute;
