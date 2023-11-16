@@ -17,7 +17,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  /* background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%); */
   position: absolute;
   content: "";
   z-index: 2;
@@ -28,14 +28,14 @@
 
 .main:after {
   content: "";
-  background-image: url("/src/assets/grid.svg");
-  z-index: 1;
+  background-image: url("src/assets/jj-ying-WmnsGyaFnCQ-unsplash.jpg");
+  /* z-index: 1; */
+  background-size: cover;
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   opacity: 0.4;
-  filter: invert(1);
 }
 
 .gradient {
@@ -60,7 +60,7 @@
   height: 100%;
   filter: blur(100px) saturate(150%);
   top: 80px;
-  opacity: 0.15;
+  opacity: 0.2;
 }
 
 @media screen and (max-width: 640px) {
@@ -83,12 +83,12 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.green_gradient {
+  @apply bg-gradient-to-r from-teal-500 via-green-600 to-cyan-500 bg-clip-text text-transparent;
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-black sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
