@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* 
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
@@ -28,7 +27,7 @@
 
 .main:after {
   content: "";
-  background-image: url("./jj-ying-WmnsGyaFnCQ-unsplash.png");
+  background-image: url('/Users/masonstuart/Article-Sum/src/assets/bg.png') ;
   /* z-index: 1; */
   background-size: cover;
   position: absolute;
